@@ -6,3 +6,5 @@
 - Front-end: React (Basic)
 - Back-end/Database: Firebase, Node.js
 - Hosting: Firebase
+
+https://talkie-chattie.firebaseapp.com/ live
