@@ -1,0 +1,109 @@
+.message-content-container {
+    padding: 0;
+    position: relative;
+}
+
+.header-desktop {
+    width: 100%;
+    height: 72px;
+    position: absolute;
+    top: 0;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+
+    background: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.user-name-desktop {
+    font-size: 36px;
+    color: grey;
+}
+
+
+.message-container-desktop {
+    width: 100%;
+    height:  calc(100% - 72px);
+    position: absolute;
+    top: 72px;
+}
+
+.conversation-desktop {
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 98%;
+    height: calc(100% - 82px);
+    background: #fff;
+    margin: 10px;
+    padding: 20px;
+
+    overflow-y: scroll;
+    /* IE 10+ / Firefox */
+    -ms-overflow-style: none;  
+    scrollbar-width: none; 
+}
+
+/* Safari and Chrome */
+.conversation-desktop::-webkit-scrollbar { 
+    display: none;  
+}
+
+.conversation-desktop ul {
+    list-style: none;
+}
+
+
+.send-input-desktop {
+    width: 98%;
+    background: #fff;
+    margin: 10px 10px 0 10px;
+    
+    display: flex;
+    padding: 10px;
+}
+
+.message-input-desktop {
+    height: 40px;
+    border: none;
+    background: rgb(240, 236, 236);
+    padding: 20px;
+    color: grey;
+    font-weight: bold;
+    border-radius: 5px;
+
+    flex-grow: 4;
+}
+
+.button-group-desktop {
+    height: 40px;
+    display: flex;
+
+    flex: 1;
+}
+
+.input-area-desktop, .send-button-desktop {
+    flex-grow: 1;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+.input-area-desktop {
+    background: #fff;
+    color: gray;
+}
+
+.send-button-desktop  {
+    background: rgb(240, 236, 236);
+    color: gray;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+
+
+

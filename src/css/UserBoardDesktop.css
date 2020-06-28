@@ -1,0 +1,72 @@
+.user-board {
+    position: relative;
+    height: 100%;
+    background: #fff;
+    padding: 0;
+    margin: 0;
+    overflow-x: auto;
+
+    /* IE 10+ / Firefox */
+    -ms-overflow-style: none;  
+    scrollbar-width: none; 
+}
+
+/* Safari and Chrome */
+.user-board::-webkit-scrollbar { 
+    display: none;  
+}
+
+.user-name {
+    height: 72px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background: #fff;
+    color: #329D9C;
+    font-size: 35px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    position: sticky;
+    top: 0;
+    margin: 0;  
+}
+
+@media (max-width: 1000px) {
+    .user-name {
+        font-size: 25px;
+    }
+    
+}
+
+
+.friend-name {
+    color: rgb(102, 98, 98);
+    margin: 0;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.active-friend {
+    background: #EAE5E5;
+}
+
+.log-out {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 43px;
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    font-size:16px;
+    font-weight: bold;
+    box-shadow: -1px -1px 2px 2px rgba(0, 0, 0, 0.25);
+    background: #fff;
+    color: rgb(65, 131, 131);
+    border: none;
+}

@@ -1,0 +1,27 @@
+/* z-index 
+UserBoardMobile: 10;
+MessageContentMobile:
+    header-mobile: 5,
+    message-container-mobile: 0,
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background: #E0ECDE;
+}
+
+.page-container, .page {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none !important;
+}

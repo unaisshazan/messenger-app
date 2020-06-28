@@ -1,0 +1,85 @@
+.user-mobile-board {
+    height: 100%;
+    background: #fff;
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    overflow-y: scroll;
+    z-index: 10;
+
+    /* IE 10+ / Firefox */
+    -ms-overflow-style: none;  
+    scrollbar-width: none; 
+}
+
+/* Safari and Chrome */
+.user-mobile-board::-webkit-scrollbar { 
+    display: none;  
+}
+
+
+.header-mobile-sideboard {
+    position: sticky;
+    top: 0;
+    height: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background: #fff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.toggle-board-button-close {
+    font-weight: bold;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: none;
+    color: rgb(116, 108, 108);
+}
+
+.toggle-board-button-open {
+    position: fixed;   
+    right: 0px;
+    top: 0;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.user-name-mobile {
+    color: #329D9C;
+    margin: 0;
+    font-size: 25px;
+    padding-left: 15px
+}
+
+.friend-name-mobile {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.log-out-mobile {
+    width: 100%;
+    margin: 0;
+    position: sticky;
+    bottom: 0;
+    background: #fff;
+    box-shadow: -1px -1px 2px 2px rgba(0, 0, 0, 0.25);
+    color: rgb(65, 131, 131);
+    font-weight: bold;
+    text-align: center;
+    border: none;
+}
+

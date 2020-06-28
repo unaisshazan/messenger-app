@@ -1,0 +1,141 @@
+.form-container {
+    height: 100%;
+    width: 100%;
+    margin-top: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.form-container form * {
+    display: block;
+}
+
+.form-container form {
+    width: 662px;
+    height:710px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.line {
+    margin: 31px;
+    border: 1px solid rgb(207, 201, 201);
+}
+
+.line-input {
+    border: 1px solid rgb(207, 201, 201);
+    margin: 10px 31px;
+}
+
+.form-container .form-name {
+    font-size: 33px;
+    font-weight: bold;
+    color: #329D9C;
+    text-align: center;
+    margin-top: 39px;
+}
+
+.form-container .form-label {
+    color: #329D9C;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: 31px;
+    margin-bottom: 11px;
+}
+
+.form-container form .input-password, .form-container form .input-username  {
+    margin-left: 31px;
+    border: none;
+    color: #8C8C8C;
+    font-weight: bold;
+    width: 300px;
+    outline: none
+}
+
+.form-container .form-label.label-password {
+    margin-top: 48px;
+}
+
+.form-container .button-input {
+    height: 66px;
+    width: 600px;
+    margin: 74px 31px 11px 31px;
+    background: #205072;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+.form-container .account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 11px 31px;
+    height: 150px;
+}
+
+.form-container .account p {
+    color: #329D9C;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.form-container .account .google-account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.google-login-button {
+    margin-top: -120px;
+}
+
+.google-sign-up-box {
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.google-sign-up-box button {
+	border: none;
+	box-shadow: 1px 2px 2px 2px grey; 
+	font-weight: bold;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+@media (max-width: 720px) {
+    .form-container {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .form-container .button-input {
+        width: 331px;
+        font-size: 30px;
+    }
+
+    .form-container .account p {
+        font-size: 12px;
+    }
+
+    .google-login-button {
+        margin-top: -200px;
+    }
+}
